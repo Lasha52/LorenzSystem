@@ -1,0 +1,9 @@
+
+To compile this on linux you need to have sfml installed, you can get sfml with apt packadge manager using the command:sudo apt-get install libsfml-dev
+
+then just open the terminal in the directory where lorenz.cpp file is located and use this command:g++ lorenz.cpp -o filenamehere -lsfml-graphics -lsfml-window 
+-lsfml-system
+
+This is the Lorenz system visualisation written in c++ with SFML library.As SFML is a 2D library, we can only display its projection on some plane, in our case xy plane, I might simulate 3D in the future(by changing the projections mid-simulation). contact me at : lashajibgashvili@gmail.com
+
+
